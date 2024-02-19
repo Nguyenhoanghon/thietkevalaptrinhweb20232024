@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*cau lenh if*/
+        var diem = 5;
+        if (diem >= 8.5) {
+            xeploai = "Giỏi";
+            document.write(xeploai);
+        } else if (diem >= 7) {
+            xeploai = "Khá";
+            document.write(xeploai);
+        } else if (diem >= 5) {
+            xeploai = "Trung bình";
+            document.write(xeploai);
+        } else {
+            xeploai = "Yếu";
+            document.write(xeploai);
+        }
+        var nam = 4;
+        switch (nam) {
+            case 1:
+                document.write("Học đại cương");
+                break;
+            case 2:
+                document.write("Học cơ sở ngành");
+                break;
+            case 3:
+                document.write("Học chuyên ngành");
+                break;
+            case 4:
+                document.write("Làm khóa luận");
+                break;
+            default:
+                document.write("Ra trường");
+        } /**/
+        for (i = 1; i <= 10; i++) {
+            document.write("Hello");
+        } /**/
+        var computers = ["Dell", "Acer", "Lenovo"];
+        for (x in computers) {
+            document.write(computers[x]);
+        }
+        x = 10;
+        while (x > 0) {
+            document.write(x);
+            x--;
+        } /*Function */
+        function myfunction(txt) {
+            alert(txt);
+        }
+    </script>
+</head>
+
+<body>
+    <!--  -->
+    <script language="javascript">
+        var x;
+    </script>
+    <h1> Hello javascript</h1>
+    <form action=""><input type="button" onclick="myfunction( 'aesfasfsfafarrfarrrrg')" value="Call Function ">
+    </form>
+
+</body>
+
+</html>
