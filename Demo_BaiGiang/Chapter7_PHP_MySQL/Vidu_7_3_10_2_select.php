@@ -8,13 +8,18 @@
 <body>
 <?php
 require "ConnectDB.php";
+echo "<h1>Test function mysql_affected_row() </h1>";
 $sql = "SELECT * FROM khachhang";
 $result = mysqli_query($conn, $sql);
 while ($row = mysqli_fetch_assoc($result)) {
     echo "Mã KH: " . $row['makh'] . ", Họ tên: " . $row['tenkh'] . $row['dienthoai'] . "<br/>";
 }
-mysql_free_result($result);
-mysql_close();
+
+//test Function mysql_affected_row()
+echo "<h1>Test function mysql_affected_row() </h1>" . $mysqli_affected_rows($conn);
+
+mysqli_free_result($result);
+mysqli_close();
 ?>
 </body>
 </html>

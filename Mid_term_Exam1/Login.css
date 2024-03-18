@@ -1,0 +1,12 @@
+* {
+    /* background-color: aqua;
+    background-image: url("imgs/background.jpeg"); */
+}
+
+.login {
+    width: 500px;
+    height: 600px;
+    margin: 2% 30% 0% 30%;
+    background-image: url("imgs/login.png");
+    /*  background-color: aqua; */
+}
