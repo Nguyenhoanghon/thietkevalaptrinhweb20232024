@@ -1,0 +1,33 @@
+.text-muted: Dùng để hiển thị văn bản với màu xám nhạt, thường dùng cho chú thích.
+.small: Thu nhỏ kích thước văn bản, thường dùng cho chú thích chi tiết.
+.list-unstyled: Loại bỏ các kiểu mặc định của danh sách, thường dùng cho chú thích dạng danh sách.
+.blockquote: Hiển thị văn bản trích dẫn với phong cách đặc biệt, thường dùng cho chú thích dài.
+.blockquote-footer: Hiển thị nguồn trích dẫn cho văn bản trích dẫn trong thẻ .blockquote.
+2. Lớp CSS cho vị trí chú thích:
+
+.float-left: Dùng để di chuyển chú thích sang trái.
+.float-right: Dùng để di chuyển chú thích sang phải.
+.text-center: Dùng để căn giữa chú thích.
+.text-start: Dùng để căn lề trái chú thích (tương tự text-left cho Bootstrap 5.2 trở lên).
+.text-end: Dùng để căn lề phải chú thích (tương tự text-right cho Bootstrap 5.2 trở lên).
+3. Lớp CSS bổ sung:
+
+.opacity-50: Giảm độ mờ của chú thích xuống 50%.
+.font-italic: In nghiêng chú thích.
+.font-weight-light: Làm cho chú thích có độ dày phông chữ nhẹ hơn.
+
+
+.container	100%	540px	720px	960px	1140px	1320px
+.container-sm	100%	540px	720px	960px	1140px	1320px
+.container-md	100%	100%	720px	960px	1140px	1320px
+.container-lg	100%	100%	100%	960px	1140px	1320px
+.container-xl	100%	100%	100%	100%	1140px	1320px
+.container-xxl	100%	100%	100%	100%	100%	1320px
+.container-fluid	100%	100%	100%	100%	100%	100%
+
+Lớp row: Dùng để tạo một hàng mới trong hệ thống lưới.
+Lớp col-*: Dùng để tạo các cột trong một hàng. Ví dụ: col-sm-4 tạo ra một cột chiếm 4/12 chiều rộng của hàng trên thiết bị di động (sm).
+sm: Thiết bị di động (dưới 768px)
+md: Máy tính bảng (768px - 992px)
+lg: Máy tính xách tay (992px - 1200px)
+xl: Màn hình lớn (trên 1200px)

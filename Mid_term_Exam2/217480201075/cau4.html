@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD to DSDETAI</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row ">
+            <div style="text-align: center; margin-top: 200px;" class="col-xxl">
+                <form action="cau4.php" method="post">
+                    <h1 style="color: red;">Thêm dữ liệu đề tài</h1>
+                    <input type="text" name="madetai" required id="" placeholder="nhap mã đề tài"> <br>
+                    <input type="text" name="tendetai" required id="" placeholder="nhập tên đề tài"> <br>
+                    <input type="number" name="kinhphi"required placeholder="nhập kinh phí"> <br>
+                    <input type="text" name="mahn" required placeholder="nhập mã hội nghị"><br>
+                    <button type="submit">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <style>
+        input{
+            margin: 10px;
+            padding: 5px;
+            width: 500px;
+        }
+        button:hover{
+            border: 1px solid red;
+            color: red;
+        }
+        
+
+    </style>
+ <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

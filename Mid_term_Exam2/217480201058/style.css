@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search{
+    background-color: rgba(8, 163, 253, 0.842);
+}
+
+.main{
+    text-align: center;
+}
+
+.hd{
+    margin-top: 10px;
+}

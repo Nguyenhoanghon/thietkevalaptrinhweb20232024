@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm dữ liệu</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+</head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .information {
+            width: 400px;
+        }
+
+    </style>
+<body>
+    <div class="container">
+        <div class="text-center text-primary mb-4">
+            <p class="h3 text-info">Thêm đề tài</p>
+            <p class="h4 text-warning">Vui lòng nhập đầy đủ thông tin đề tài</p>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <form action="insert.php" method="post" class="form-group border p-2 rounded">
+                <div>
+                    <div class="information">
+                        <label for="maDeTai" class="form-lable">Mã đề tài</label>
+                        <input type="text" name="maDeTai" class="form-control" placeholder="Mã đề tài" required>
+                    </div>
+                    <div class="information">
+                        <label for="tenDeTai" class="form-lable">Tên đề tài</label>
+                        <input type="text" name="tenDeTai" class="form-control" placeholder="Tên đề tài" required>
+                    </div>
+                    <div class="information">
+                        <label for="kinhPhi" class="form-lable">Kinh phí</label>
+                        <input type="text" name="kinhPhi" class="form-control" placeholder="Kinh phí" required>
+                    </div>
+                    <div class="information">
+                        <label for="maHN" class="form-lable">Mã hội nghị</label>
+                        <input type="text" name="maHN" class="form-control" placeholder="Mã hội nghị" required>
+                    </div>
+                    <div class="information text-center mt-3">
+                        <input type="submit" name="insert" class="btn btn-primary" value="Thêm" onclick="window.onen('timkiem.php')";">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="../bootstrap/js/bootstrap.css"></script>
+</html>
